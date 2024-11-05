@@ -1,6 +1,6 @@
 """Setup configuration for the Flask REST API package."""
 
-from setuptools import setup, find_packages
+from setuptools import find_packages, setup
 
 setup(
     name="my-flask-api",
