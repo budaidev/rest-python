@@ -1,4 +1,6 @@
-from setuptools import find_packages, setup
+"""Setup configuration for the Flask REST API package."""
+
+from setuptools import setup, find_packages
 
 setup(
     name="my-flask-api",
@@ -15,6 +17,7 @@ setup(
             "pytest-cov>=3.0.0",
             "black>=22.0.0",
             "flake8>=4.0.0",
+            "flake8-docstrings>=1.6.0",
             "isort>=5.0.0",
             "pre-commit>=3.0.0",
         ]
